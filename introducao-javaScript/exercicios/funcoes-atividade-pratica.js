@@ -33,3 +33,4 @@ function calculaIdade(anos){
 const pessoa = { nome: 'Naldo', idade: 38 };
 
 console.log(calculaIdade.call(pessoa, 5));
+console.log(calculaIdade.apply(pessoa,[7]));
